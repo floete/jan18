@@ -16,10 +16,10 @@ int g()
 
 int main()
 {
-	int a = 2;
-	int b = 15;
-	int c = ( f() | g() );
-	int d = ( f() || g() );
+	int a = 1;
+	int b = 2;
+	int c = ( f() & g() );
+	int d = ( f() && g() );
 	
 	printf("a = %d\n",a);
 	printf("b = %d\n",b);
