@@ -2,8 +2,8 @@
 
 int main()
 {
-	int a = 1;
-	int b = 2;
+	int a = 2;
+	int b = 15;
 	int c = (a | b);
 	int d = (a || b);
 	
@@ -12,5 +12,8 @@ int main()
 	printf("c = %d\n",c);
 	printf("d = %d\n",d);
 	
+	// o—ÍF	a=2,b=15,c=15,d=1
+	
 	return 0;
 }
+
